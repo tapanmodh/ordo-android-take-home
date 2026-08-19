@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Ordo Take-Home</string>
+
+    <!-- LLM screen -->
+    <string name="llm_screen_title">Ordo LLM Benchmark</string>
+    <string name="llm_screen_subtitle">On-device llama.cpp inference and accessibility experiments</string>
+
+    <!-- Model -->
+    <string name="model_section_title">Model</string>
+    <string name="model_select">Select model</string>
+    <string name="model_change">Change model</string>
+
+    <string name="model_status_not_selected">No model selected</string>
+    <string name="model_status_preparing">Preparing model…</string>
+    <string name="model_status_unloading">Unloading current model…</string>
+    <string name="model_status_loading">Loading %1$s…</string>
+    <string name="model_status_ready">Model ready</string>
+    <string name="model_status_load_failed">Model load failed</string>
+
+    <string name="model_metric_native_load">Native load</string>
+    <string name="model_metric_cold_ready">Cold → ready</string>
+
+    <!-- Errors -->
+    <string name="error_engine_initialization">Unable to initialize the on-device inference engine.</string>
+    <string name="error_model_load">Unable to load the selected model. Please try another GGUF file.</string>
+    <string name="error_generation">Generation failed. Please try again.</string>
+    <string name="error_sustained_benchmark">Sustained benchmark failed before completion.</string>
+
+    <!-- Prompt -->
+    <string name="prompt_section_title">Prompt</string>
+    <string name="prompt_label">Enter prompt</string>
+    <string name="prompt_use_benchmark">Benchmark prompt</string>
+    <string name="prompt_generate">Generate</string>
+    <string name="prompt_running">Running</string>
+
+    <!-- Generation -->
+    <string name="generation_section_title">Generation</string>
+
+    <!-- Generation metrics -->
+    <string name="metric_prompt_tokens">Prompt tokens</string>
+    <string name="metric_prefill_time">Prefill</string>
+    <string name="metric_prefill_throughput">Prefill throughput</string>
+    <string name="metric_first_token_decode">First-token decode</string>
+    <string name="metric_ttft">TTFT</string>
+    <string name="metric_generated_tokens">Generated tokens</string>
+    <string name="metric_decode_time">Decode</string>
+    <string name="metric_decode_throughput">Decode throughput</string>
+
+    <!-- Benchmark -->
+    <string name="benchmark_section_title">Sustained benchmark</string>
+    <string name="benchmark_description">20 consecutive generations using the fixed benchmark prompt.</string>
+    <string name="benchmark_run">Run 20 generations</string>
+    <string name="benchmark_results">Results</string>
+    <string name="benchmark_run_progress">Run %1$d of %2$d</string>
+    <string name="benchmark_elapsed">Elapsed: %1$.1f s</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_section_title">Accessibility demo</string>
+    <string name="accessibility_description">Inspect Android Settings and navigate to Bluetooth using AccessibilityNodeInfo.</string>
+    <string name="accessibility_settings">Accessibility settings</string>
+    <string name="accessibility_bluetooth_action">Open Settings &amp; turn Bluetooth on</string>
+
+    <!-- Accessibility service -->
+    <string name="accessibility_service_label">Ordo Accessibility Demo</string>
+    <string name="accessibility_service_description">Allows Ordo to inspect Android Settings and perform the Bluetooth action explicitly requested by the user.</string>
+
+    <!-- Common -->
+    <string name="error_unknown">Unknown error</string>
+
+</resources>
